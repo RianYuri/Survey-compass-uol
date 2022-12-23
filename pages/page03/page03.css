@@ -1,0 +1,114 @@
+
+label{
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.h3-form{
+font-size:24px ;
+
+}
+
+.select-form{
+    appearance: none;
+    margin-top: 15px;
+}
+.select-form{
+    border-radius:20px ;
+    width: 449px;
+height: 46px;
+text-align: left;
+font-size: 1.4em;
+font-weight: 500;
+padding: 0px 0px 0px 45px;
+background-position: 3% center;
+background-image: url('../../img/home/arrow.svg') ;
+background-repeat: no-repeat;
+}
+.fieldset{
+    border: none;
+    margin-top: 20px;
+   
+}
+.legend {
+    width: 480px;
+font-weight: 700;
+font-size: 24px;
+text-align: left;
+font-family: 'Roboto', sans-serif;
+margin: 0px 0px 10px 0px;
+padding-top: 13px;
+}
+
+  input[type="checkbox"] {
+   display: none;
+  }
+  
+  input[type="checkbox"] + label {
+    position: relative;
+    cursor: pointer;
+    padding-left: 30px;
+  }
+
+input[type="checkbox"] + label::before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 0;
+    bottom:0;
+    border-radius: 4px;
+    background-color:#3eb25f30 ;
+
+  }
+  input[type="checkbox"]:checked + label::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 25px;
+    height: 25px;
+       background-color:#3EB25E;
+    border-radius: 4px;
+  }
+  input[type="checkbox"]:hover + label::before {
+    background-color:#3EB25E;
+  }
+.fieldset{
+display: flex;
+flex-direction: column;
+gap: 12px;
+  }
+  .button{
+    background: #3EB25E;
+    border-radius: 35px;
+    border: none;
+    width: 38%;
+    height: 34px;
+    border-top: 20px;
+    position: relative;
+    top: 20px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bolder;
+  }
+  .content{
+    display: flex;
+justify-content: flex-start;
+gap: 45px;
+
+  }
+  #skip{
+margin-top:15px ;
+width: 85%;
+
+}
+.skip-button{
+    display: flex;
+    justify-content:flex-start;
+
+}
+
+
