@@ -80,7 +80,7 @@ overflow-x: hidden;
 img
 {
      padding: 0px 60px 0px 0px;
-width: 271px;
+width: 261px;
 height: 416px;
 }
 .welcome{
@@ -93,5 +93,9 @@ height: 416px;
 .section-home{
     display: flex;
     justify-content: flex-start;
+}
+.container{
+    gap: 0;
+    padding-bottom:200px;
 }
 }

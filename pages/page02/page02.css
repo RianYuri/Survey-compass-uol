@@ -107,5 +107,11 @@ width: 85%;
     justify-content:flex-start;
 
 }
+@media(max-width:768px) , (min-height:1024px) {
+  main {
+      display: flex;
+      flex-direction: column;
+  }
+}
 
 
