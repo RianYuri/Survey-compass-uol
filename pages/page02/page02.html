@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../layout/layout.css">
     <link rel="stylesheet" href="page02.css">
+    <script src="../../js/script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -17,7 +18,7 @@
     </section>
     <article>
         <h3 class="h3-form">What is the status of your account?</h3>
-        <form action="" method="post">
+        <form id="form">
             <p>
                 
                 <select name="haveaCount" id="createdAccount" class="select-form">
@@ -52,15 +53,15 @@
             </fieldset>
             <div class="content">
                     
+                
+                
                 <button class="button" onclick="history.back()">Back</button>
-                <button class="button">Next</button>
+                <button type="submit" class="button" onclick="page03()">Next</button>
             </div>
                 <div class="skip-button">
-                    <button class="button" id="skip">Skip</button>
+                    <button  class="button" id="skip" >Skip</button>
                 </div>
-            
-        
-        </form>
+            </form>
     </article>
     </main>
 </body>

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/layout/layout.css">
     <link rel="stylesheet" href="page03.css">
+    <script src="../../js/script.js" defer></script>
     <title>Document</title>
 </head>
 
@@ -19,7 +20,7 @@
         </section>
         <article>
             <h3 class="h3-form">How do you decide to invest?</h3>
-            <form action="" method="post">
+            <form id="next">
                 <p>
 
                     <select name="haveaCount" id="createdAccount" class="select-form">
@@ -52,7 +53,7 @@
                 <div class="content">
 
                     <button class="button" onclick="history.back()">Back</button>
-                    <button class="button">Next</button>
+                    <button class="button" onclick="page04()">Next</button>
                 </div>
                 <div class="skip-button">
                     <button class="button" id="skip">Skip</button>

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="page04.css">
     <link rel="stylesheet" href="../../layout/layout.css">
+    <script src="../../js/script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -16,13 +17,13 @@
             </figure>
         </section>
         <article>
-            <form action="" class="form-area">
+            <form action="" id="next" class="form-area">
                 <label for="Investment" class="text-label">If you or someone close to you has already made a loss on the investment, write down the details</label>
                 <textarea name="" id="" cols="30" rows="10" class="size-area"></textarea>
                 <div class="content">
 
                     <button class="button" onclick="history.back()">Back</button>
-                    <button class="button">Next</button>
+                    <button class="button" onclick="page05()">Next</button>
                 </div>
                 <div class="skip-button">
                     <button class="button" id="skip">Skip</button>

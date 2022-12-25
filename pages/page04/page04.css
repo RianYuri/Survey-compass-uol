@@ -53,3 +53,29 @@ margin-top:15px ;
 width: 59vh;
 
 }
+@media(max-width:768px)  {
+  main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  img {
+    width: 80%;
+    height: 80%;
+    margin: 0%;
+    padding: 0px 0px 0px 30px;
+}
+.size-area{
+  width: 70%;
+  padding: 0px;
+  margin-right: 20px;
+}
+.text-label{
+  font-size: 15px;
+  width: 70%;
+}
+
+
+}
