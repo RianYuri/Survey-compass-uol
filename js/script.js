@@ -8,8 +8,6 @@ function page02() {
 }
 
 function page03() {
-   
-
 
     if(cryptocurrencymarket.checked === true ||
         createdAccount.checked === true ||

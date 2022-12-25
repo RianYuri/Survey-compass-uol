@@ -8,21 +8,20 @@ const cryptocurrencymarket = document.getElementById('cryptocurrencymarket');
 
 const failedButton = document.querySelector('.button1');
 
-if(cryptocurrencymarket.checked === true ||
-    createdAccount.checked === true ||
+if((cryptocurrencymarket.checked === true ||
     foreignexchange.checked === true ||
     commodity.checked === true ||
-    bondmarket.checked === true  
+    bondmarket.checked === true) &&
+    createdAccount.value !== "" 
     
     ){
         failedButton.classList = "button";
 }
-else if(cryptocurrencymarket.checked === false ||
-    createdAccount.checked === false ||
+else if((cryptocurrencymarket.checked === false ||
     foreignexchange.checked === false ||
     commodity.checked === false ||
-    bondmarket.checked === false  && 
-    createdAccount.value === null
+    bondmarket.checked === false)  && 
+    createdAccount.value === ""
     ){
         failedButton.classList = "button1";
 }
