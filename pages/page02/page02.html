@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../../layout/layout.css">
     <link rel="stylesheet" href="page02.css">
     <script src="../../js/script.js" defer></script>
+    <script src="../../js/validation.js" defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -22,8 +23,9 @@
             <p>
                 
                 <select name="haveaCount" id="createdAccount" class="select-form">
+                    <option class="option-form" value="">Select an option</option>
                     <option class="option-form" value="doesntAccount">I have not created an account yet.</option>
-                    <option class="option-form" value="precisadeempreiteiro">Dps Invento</option>
+                    <option class="option-form" value="precisadeempreiteiro">I wish to create in the future</option>
                 </select>
             </p>
             <fieldset class="fieldset">
@@ -56,7 +58,7 @@
                 
                 
                 <button class="button" onclick="history.back()">Back</button>
-                <button type="submit" class="button" onclick="page03()">Next</button>
+                <button type="submit" class="button button1" onmouseover="validation()" onclick="page03()">Next</button>
             </div>
                 <div class="skip-button">
                     <button  class="button" id="skip" >Skip</button>

@@ -1,3 +1,4 @@
+
 function page01() {
     window.location.assign('./page01/page01.html');
 }
@@ -7,8 +8,21 @@ function page02() {
 }
 
 function page03() {
-    window.location.pathname = '/pages/page03/page03.html';
+   
+
+
+    if(cryptocurrencymarket.checked === true ||
+        createdAccount.checked === true ||
+        foreignexchange.checked === true ||
+        commodity.checked === true ||
+        bondmarket.checked === true 
+    ){    window.location.assign('../page03/page03.html');
+}else{
+
 }
+}
+        
+
 
 function page04() {
     window.location.assign('../page04/page04.html');
