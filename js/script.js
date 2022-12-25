@@ -1,6 +1,11 @@
-
+function home(){
+    window.location.assign('../home.html')
+}
+function page1(){
+    window.location.assign('./page01/page01.html')
+}
 function page01() {
-    window.location.assign('./page01/page01.html');
+    window.location.assign('../page01/page01.html');
 }
 
 function page02() {
@@ -9,14 +14,12 @@ function page02() {
 
 function page03() {
 
-    if(cryptocurrencymarket.checked === true ||
-        createdAccount.checked === true ||
+    if((cryptocurrencymarket.checked === true ||
         foreignexchange.checked === true ||
         commodity.checked === true ||
-        bondmarket.checked === true 
+        bondmarket.checked === true) &&
+        createdAccount.value !== "" 
     ){    window.location.assign('../page03/page03.html');
-}else{
-
 }
 }
         

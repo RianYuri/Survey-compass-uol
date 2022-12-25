@@ -38,4 +38,5 @@ h3{
 .button:hover{
     background: #FFFF7D;
     color: black;
+    cursor: pointer;
   }
