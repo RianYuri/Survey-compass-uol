@@ -3,6 +3,10 @@ label{
     font-size: 26px;
     font-family: 'Roboto', sans-serif;
 }
+main{
+  gap: 20px;
+  padding-left: 120px;
+}
 
 .h3-form{
 font-size:24px ;
