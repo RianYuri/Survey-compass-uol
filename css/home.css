@@ -15,6 +15,9 @@ main{
     height: 100vh;
     flex-direction: row-reverse;
     justify-content: space-around;
+    gap: 20px;
+    padding-left: 120px;
+      
     
 }
 a{
