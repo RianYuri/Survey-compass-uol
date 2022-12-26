@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/layout/layout.css">
+    <link rel="stylesheet" href="../../layout/layout.css">
     <link rel="stylesheet" href="page03.css">
     <script src="../../js/script.js" defer></script>
+    <script src="../../js/validation.js" defer></script>
     <title>Document</title>
 </head>
 
@@ -24,8 +25,10 @@
                 <p>
 
                     <select name="haveaCount" id="createdAccount" class="select-form">
+                    <option class="option-form" value="">Select an option</option>
                         <option class="option-form" value="doesntAccount">I have not invested yet.</option>
-                        <option class="option-form" value="precisadeempreiteiro">Dps Invento</option>
+                        <option class="option-form" value="intend">I intend to invest.</option>
+                        <option class="option-form" value="already">i've already invested.</option>
                     </select>
                 </p>
                 <fieldset class="fieldset">
@@ -33,16 +36,16 @@
                     </legend>
 
                     <p>
-                        <input type="checkbox" name="checkbox" id="stockmarket" value="stockmarket" />
-                        <label for="stockmarket">Books and articles</label>
+                        <input type="checkbox" name="checkbox" id="books" value="books" />
+                        <label for="books">Books and articles</label>
                     </p>
                     <p>
-                        <input type="checkbox" name="checkbox" id="foreignexchange" value="foreignexchange" />
-                        <label for="foreignexchange">Youtube tutorial videos</label>
+                        <input type="checkbox" name="checkbox" id="youtube" value="youtube" />
+                        <label for="youtube">Youtube tutorial videos</label>
                     </p>
                     <p>
-                        <input type="checkbox" name="checkbox" id="bondmarket" value="bondmarket" />
-                        <label for="bondmarket">online or face to face courses</label>
+                        <input type="checkbox" name="checkbox" id="courses" value="courses" />
+                        <label for="courses">online or face to face courses</label>
                     </p>
                     <p>
                     <input type="checkbox" name="checkbox" id="experience" value="experience" />
@@ -53,10 +56,10 @@
                 <div class="content">
 
                     <button class="button" onclick="page02()">Back</button>
-                    <button class="button" onclick="page04()">Next</button>
+                    <button type="submit" class="button1" onclick="page04()" onmouseover="validationBox()">Next</button>
                 </div>
                 <div class="skip-button">
-                    <button class="button" id="skip">Skip</button>
+                    <button class="button" id="skip"><a href="../page04/page04.html">Skip</a></button>
                 </div>
 
 

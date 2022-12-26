@@ -40,3 +40,37 @@ h3{
     color: black;
     cursor: pointer;
   }
+   .button1{
+    background: #3eb25f55;
+    border-radius: 35px;
+    border: none;
+    width: 38%;
+    height: 34px;
+    border-top: 20px;
+    position: relative;
+    top: 20px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  a{
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+    display: block;
+    height: 100%;
+  }
+
+  @media(max-width:768px){
+    main{
+        height: 0%;
+    }
+  }
+  @media(min-width:800px ) and (max-width:1443px){
+  main{
+    width: 85%;
+  }
+  }

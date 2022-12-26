@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,10 @@
     <link rel="stylesheet" href="page04.css">
     <link rel="stylesheet" href="../../layout/layout.css">
     <script src="../../js/script.js" defer></script>
+    <script src="../../js/textArea.js" defer></script>
     <title>Document</title>
 </head>
+
 <body>
     <main>
         <section>
@@ -18,18 +21,22 @@
         </section>
         <article>
             <form action="" id="form" class="form-area">
-                <label for="Investment" class="text-label">If you or someone close to you has already made a loss on the investment, write down the details</label>
-                <textarea name="" id="" cols="30" rows="10" class="size-area"></textarea>
+                <label for="Investment" class="text-label">If you or someone close to you has already made a loss on the
+                    investment, write down the details</label>
+                <textarea name="" id="textArea" cols="30" rows="10" maxlength="130" class="size-area"></textarea>
+                <p id="textCont"></p>
+
                 <div class="content">
 
-                    <button class="button" onclick="page03()">Back</button>
-                    <button class="button" onclick="page05()">Next</button>
+                    <button class="button" onclick="page003()">Back</button>
+                    <button class="button" onclick="page05()" id="button2">Next</button>
                 </div>
                 <div class="skip-button">
-                    <button class="button" id="skip">Skip</button>
+                    <button class="button" id="skip"><a href="../page05/page05.html">Skip</a></button>
                 </div>
             </form>
         </article>
     </main>
 </body>
+
 </html>

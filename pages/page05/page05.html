@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="page05.css">
     <link rel="stylesheet" href="../../layout/layout.css">
     <script src="../../js/script.js" defer></script>
+    <script src="../../js/validation.js" defer></script>
     <title>Survey Form</title>
 </head>
 
@@ -19,24 +20,24 @@
             </figure>
         </section>
         <article class="form-art">
-            <form  id="form">
+            <form  id="form" method="get">
                 <p>
 
                     <label for="fullname" class="label">Full name:</label>
-                    <input type="text" name="fullname" id="fullname" class="input-name" placeholder="Nasser Toghiri"/>
+                    <input type="text" name="fullname" id="fullName" class="input-name" placeholder="Nasser Toghiri" required/>
                 </p>
 
                 <p>
                     <label for="email" class="label">Email:</label>
-                    <input type="email" name="email" id="email" class="input-email" placeholder="N.Toghiri@Gmail.com"/>
+                    <input type="email" name="email" id="email" class="input-email" placeholder="N.Toghiri@Gmail.com" required/>
                 </p>
                 <p>
                     <label for="age" class="label">Age:</label>
-                    <input type="number" name="age" id="age" class="input-age" placeholder="-- --" />
+                    <input type="number" name="age" id="age" class="input-age" placeholder="-- --" required />
                 </p>
                 <div class="content">
-                    <button class="button" onclick="history.back()">Back</button>
-                    <button type="submit" class="button">Submit</button>
+                    <button class="button" onclick="page04()">Back</button>
+                    <button type="submit" class="button" >Submit</button>
                 </div>
             </form>
         </article>

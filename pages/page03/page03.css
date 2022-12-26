@@ -79,6 +79,21 @@ display: flex;
 flex-direction: column;
 gap: 12px;
   }
+  .button1{
+    background: #3eb25f55;
+    border-radius: 35px;
+    border: none;
+    width: 38%;
+    height: 34px;
+    border-top: 20px;
+    position: relative;
+    top: 20px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bolder;
+  }
   .button{
     background: #3EB25E;
     border-radius: 35px;

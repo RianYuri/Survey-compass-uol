@@ -22,6 +22,9 @@ function page03() {
     ){    window.location.assign('../page03/page03.html');
 }
 }
+function page003() {
+    window.location.assign('../page03/page03.html');
+}
         
 
 
